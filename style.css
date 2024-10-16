@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+header .btn {
+    background-color: #fff;
+    color: #ff6f61;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #ffe4e1;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff6f61;
+}
+
+#about p, #contact p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project h3 {
+    font-size: 28px;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #ff856e;
+}
+
+/* Новые стили для кнопки в разделе контактов */
+#contact .btn {
+    display: inline-block;
+    margin: 20px auto;
+    background-color: #ff6f61;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#contact .btn:hover {
+    background-color: #ff856e;
+}
+
+#contact {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .project h3 {
+        font-size: 24px;
+    }
+}
+
+.project video {
+    width: 50%; /* Уменьшаем ширину видео до 50% */
+    border: 5px solid #ff6f61; /* Добавляем оранжевую рамку */
+    border-radius: 12px; /* Скругляем углы рамки */
+    display: block;
+    margin: 20px auto; /* Центрируем видео */
+}
